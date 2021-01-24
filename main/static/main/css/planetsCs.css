@@ -1,0 +1,94 @@
+@keyframes fadeIn2 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes enlarge-once {
+  0% { width: 110px; }
+  100% { width: 250px; }
+}
+@keyframes enlarge-onceBack {
+  100% { width: 110px; }
+}
+newA .ggi{
+    position:fixed;
+    z-index: 99999;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+    width: 110px;
+    padding: 1.5%;
+    height: 5000vh;
+    background: rgb(17,41,68);
+    background: linear-gradient(130deg, rgba(7,31,58,1) 0%, rgba(102,11,55,1) 5%);
+    animation: enlarge-once 0.1s linear 1 forwards paused;
+}
+
+newA .ggi .plnts{
+    color: #fff;
+    font-weight: bold;
+    opacity: 0;
+    position:fixed;
+    z-index: 999999;
+    animation: enlarge-once 0.1s linear 0.5 forwards paused;
+}
+newA .plnts img:hover{
+    transform: scale(1.3);
+}
+newA .ggi:hover .plnts{
+    animation: fadeIn2 1.5s linear 1 forwards;
+}
+newA .ggi:hover{
+    animation-play-state: running;
+}
+newA .ggi:not(:hover){
+    animation: enlarge-onceBack 0.1s linear 1 forwards paused;
+}
+
+newA .ggi .plnts A:link {text-decoration: none;}
+newA .ggi .plnts .mercT{opacity: 0; position: relative; width: 135px; padding-left: 15px;
+    background-color: rgba(138, 77, 0, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 180px; top: -40px;}
+newA .ggi .plnts .venT{opacity: 0; position: relative; width: 102px; padding-left: 15px;
+    background-color: rgba(223, 113, 17, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 150px; top: -70px;}
+newA .ggi .plnts .earT{opacity: 0; position: relative; width: 95px; padding-left: 15px;
+    background-color: rgba(11, 113, 229, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 140px; top: -100px;}
+newA .ggi .plnts .marT{opacity: 0; position: relative; width: 85px; padding-left: 15px;
+    background-color: rgba(223, 45, 7, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 140px; top: -125px;}
+newA .ggi .plnts .jupT{opacity: 0; position: relative; width: 110px; padding-left: 15px;
+    background-color: rgba(223, 174, 135, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 160px; top: -180px;}
+newA .ggi .plnts .satT{opacity: 0; position: relative; width: 100px; padding-left: 15px;
+    background-color: rgba(224, 162, 99, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 155px; top: -200px;}
+newA .ggi .plnts .uraT{opacity: 0; position: relative; width: 80px; padding-left: 15px;
+    background-color: rgba(64, 127, 191, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 130px; top: -205px;}
+newA .ggi .plnts .neptT{opacity: 0; position: relative; width: 102px; padding-left: 15px;
+    background-color: rgba(14, 90, 140, 0.95); color: #141414; border-radius: 50px; font-size: 20px; right: 150px; top: -215px;}
+
+
+newA .ggi .plnts .planet1{position: relative; width: 5vh;}
+newA .ggi .plnts .planet1:hover + .mercT{opacity: 1;}
+newA .ggi .plnts .planet2{position: relative; width: 8vh; top: -20px;}
+newA .ggi .plnts .planet2:hover + .venT{opacity: 1;}
+newA .ggi .plnts .planet3{position: relative; width: 10vh; top: -55px;}
+newA .ggi .plnts .planet3:hover + .earT{opacity: 1;}
+newA .ggi .plnts .planet4{position: relative; width: 8vh; top: -75px;}
+newA .ggi .plnts .planet4:hover + .marT{opacity: 1;}
+newA .ggi .plnts .planet5{position: relative; width: 15vh; top: -95px;}
+newA .ggi .plnts .planet5:hover + .jupT{opacity: 1;}
+newA .ggi .plnts .planet6{position: relative; width: 14vh; top: -115px;}
+newA .ggi .plnts .planet6:hover + .satT{opacity: 1;}
+newA .ggi .plnts .planet7{position: relative; width: 10vh; top: -140px;}
+newA .ggi .plnts .planet7:hover + .uraT{opacity: 1;}
+newA .ggi .plnts .planet8{position: relative; width: 9vh; top: -160px;}
+newA .ggi .plnts .planet8:hover + .neptT{opacity: 1;}
+
+
+
+
+
+
+
+
+
+
+
+
+

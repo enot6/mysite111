@@ -1,0 +1,51 @@
+
+
+aside img{
+    width: 100vw;
+    position: relative;
+    transition: all 0.5s ease;
+}
+aside img:hover{
+    padding: 7px;
+}
+aside .oa{
+    animation: fadeIn 3s;
+    float: left;
+    right: -10vw;
+    color: #fff;
+    text-align: left;
+    font-size: 1.5vw;
+    position: relative;
+    max-width: 80vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+main .features {
+    animation: fadeIn 3s;
+    float: left;
+    position: relative;
+    right: -10vw;
+    color: #fff;
+    top: 5vh;
+    text-align: left;
+    width: 75%;
+}
+
+main .planets img:hover{
+    transform: scale(1.3);
+}
+
+
+
+main .features h1 {font-size: 50px; text-align: center;}
+
+main .planets p {max-width: 1500px; margin: 20px auto; font-size: 50px;}
